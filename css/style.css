@@ -3,11 +3,14 @@
     padding: 0%;
     box-sizing: border-box;
 }
+header{
+    position: sticky;
+    top: 0;
+}
 .nav-top{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    background-color: rgb(228,182,124);
+    background-color: rgba(255, 235, 205, 0.746);
 }
 .submit{
     background: rgba(142, 0, 0, 0.452);
@@ -31,11 +34,35 @@
 .list img{
     width: 38px;
 }
+main{
+    background-color: rgba(255, 235, 205, 0.746);
+    display: flex;
+    flex-flow: column wrap;
+}
 .first-img{
     width: 1260px;
+    min-height: 100vh;
+    padding: 0 20px 0 22.5px ;
 }
 .carts{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns:20% 20% 20% 20% ;
+    /* flex-wrap: wrap; */
+    background-color: #fff;
+    margin: -1.5px 23px;
+}
+.cart{
+    width: 200px;
+}
+figure{
+    /* display: flex; */
+    /* flex-flow: column wrap; */
+    border: solid;
+    gap: 10px;
+    text-align: center;
+    min-height: 317px;
+    width: 202;
+}
+figcaption + pre{
+    text-align: center;
 }
