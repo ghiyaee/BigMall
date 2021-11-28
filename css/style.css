@@ -32,37 +32,45 @@ header{
     padding:20px 30px 2px 30px;
 }
 .list img{
-    width: 38px;
+    width: 38px;   
 }
 main{
     background-color: rgba(255, 235, 205, 0.746);
     display: flex;
     flex-flow: column wrap;
+    justify-content: center;
+    /* align-items: center; */
+    align-content: center;
+}
+.first-img-div{
+      background-color: blueviolet;
+      margin:0 30px -4.5px 30px;
 }
 .first-img{
-    width: 1260px;
-    min-height: 100vh;
-    padding: 0 20px 0 22.5px ;
+    width: calc(100vw - 60px);
+    /* min-height: 50vh; */
 }
 .carts{
-    display: grid;
-    grid-template-columns:20% 20% 20% 20% ;
-    /* flex-wrap: wrap; */
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-flow:  wrap;
+    gap: 60px;
+    /* grid-template: 55% 45% /20% 20% 20% 20%  ; */
+    /* justify-content: space-evenly; */
     background-color: #fff;
-    margin: -1.5px 23px;
+    margin: 0px 30px;
+    padding: 60px 25px 120px 25px;
 }
 .cart{
     width: 200px;
 }
 figure{
-    /* display: flex; */
-    /* flex-flow: column wrap; */
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-content: center;
     border: solid;
-    gap: 10px;
     text-align: center;
-    min-height: 317px;
-    width: 202;
-}
-figcaption + pre{
-    text-align: center;
+    min-height: 378px;
 }
