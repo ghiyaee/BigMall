@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    flex-flow: wrap ;
+    justify-content: space-evenly;
+    background-color: rgb(187, 179, 187);
+}
+.form{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-color: rgb(204, 195, 204);
+}
+form p{
+text-align: center;
+}
+.svg-icon{
+    width: 25px;
+}
+img{
+
+}
