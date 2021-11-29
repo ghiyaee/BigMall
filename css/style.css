@@ -13,15 +13,27 @@ header{
     background-color: rgba(255, 235, 205, 0.911);
 }
 .submit{
-    background: rgba(235, 102, 41, 0.637);
+    /* background: rgba(243, 202, 183, 0.637); */
     margin: 10px 0px 10px 3rem;
+    border-style: solid none none solid;
+    border-color: rgba(248, 166, 111, 0.466);
     border-radius: 20% 0% 20% 0% / 50% 50% 50% 50% ;
-    width: 80px;
-    height: 30px;
+    width: 90px;
+    height: 40px;
+    /* box-shadow: -8px -8px 5px white,
+    5px 5px 10px rgb(233, 167, 122); */
+        box-shadow: 5px 5px 10px rgb(233, 167, 122),
+    -5px -5px 4px white;
+
+    /* box-shadow: 
+    0px 0px 0px 5px rgb(245, 225, 225),
+    8px 8px 15px rgb(223, 154, 154),
+    -8px -8px 5px white; */
 }
 .submit a{
       text-decoration: none;
       color: black;
+      font-family: 'Outfit', sans-serif;
       padding-left: 10px;
       margin-top: 10px;
 }
@@ -36,7 +48,10 @@ header{
     margin: 10px -35px ;
 }
 .list img{
-    width: 30px;   
+    width: 45px;  
+    box-shadow: 5px 5px 10px rgb(233, 167, 122),
+    -5px -5px 5px white;
+    border-radius: 50%; 
 }
 .ham-div{
     width: 40px;
@@ -79,17 +94,21 @@ main{
     flex-flow: column wrap;
     justify-content: space-between;
     align-content: center;
-    border: solid;
+    /* border: solid; */
+
     border-radius: 1% ;
     text-align: center;
+    font-family: 'Outfit', sans-serif;
     min-height: 470px;
     /* padding: 20px; */
-    box-shadow:5px 4px 4px 0 rgba(0, 0, 0, 0.1);
+    box-shadow:0px 0px 10px rgba(0, 0, 0, 0.1),
+    -2px -5px 25px  #9b9999;
 }
 footer {
     background-color:  rgba(255, 235, 205, 0.746);
     display: flex;
     flex-flow:row wrap;
+    font-family: 'Outfit', sans-serif;
 }
 .about-us{
     width: 600px;
