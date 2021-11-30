@@ -35,7 +35,7 @@ header{
       padding-left: 10px;
       margin-top: 10px;
       /* transform: scale(0.8); */
-      background-color: rgba(131, 144, 174, 0.822);
+      background-color: rgba(165, 177, 204, 0.822);
       transition-property: transform;
       transition-duration: 0.2s;
 }
@@ -66,7 +66,7 @@ header{
     width: 45px;  
     box-shadow:  inset -2px -2px 0px rgba(235, 191, 162, 0.76);
     border-radius: 50%;
-    background-color: rgba(131, 144, 174, 0.822); 
+    background-color: rgba(165, 177, 204, 0.822); 
     transition: transform 0.2s ;
 }
 .list img:hover{
@@ -78,7 +78,7 @@ header{
 }
 .ham-div{
     width: 40px;
-    margin:10px 20px;
+    margin:10px 50px;
 }
 .ham-icon{
 width: 2rem;
@@ -98,23 +98,41 @@ main{
       margin:  0  3.5rem 0 3.5rem;
       width: calc(100vw - 7rem);
       height: calc(100vh - 68.67px);
-      /* height: 550px; */
       background: url(../img/2020081360073428.jpg) no-repeat center;
       background-size: cover;
       background-attachment: fixed;
+      color: white;
+      font-family: 'Outfit', sans-serif;
+      padding: 200px;
+      text-align: center;
+}
+.first-img-div h1{
+    font-family: 'Lobster', cursive;
+    font-size: 4rem;
+    margin-bottom:50px ;
+}
+.first-img-div h2{
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+.first-img-div p{
+    font-size: 1.5rem;
 }
 .first-img{
     width: calc(100vw - 7rem);
 }
 .cards-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     grid-template-rows: auto;
     gap: 30px;
     background-color: #fff;
     margin: 0px 3.5rem;
     padding: 60px 25px 120px 25px;
     width: calc(100vw - 7rem);
+}
+.figure-div{
+
 }
 .card-image{
     width: 70%;
@@ -129,7 +147,7 @@ main{
     border-radius: 1% ;
     text-align: center;
     font-family: 'Outfit', sans-serif;
-    min-height: 600px;
+    min-height: 370px;
     /* padding: 20px; */
     box-shadow:0px 0px 10px rgba(0, 0, 0, 0.1),
     -2px -5px 25px  #9b9999;
