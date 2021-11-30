@@ -163,6 +163,10 @@ footer {
 .about-us{
     width: 600px;
 }
+footer a{
+    margin-left: 10px;
+    font-size: 25px;
+}
 @media (max-width:480px) {
     .ham-icon{
         display: block;
