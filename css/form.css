@@ -3,24 +3,63 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+        background-color:rgb(218,212,218);
+}
 .main{
     display: flex;
-    flex-flow: wrap ;
-    justify-content: space-evenly;
-    background-color: rgb(187, 179, 187);
+    justify-content: center;
+    align-items: center;
+    /* flex-flow: wrap ; */
+    align-content: center;
+    /* gap: 50px; */
+    background-color:rgb(218,212,218);
+    /* margin:  0px auto; */
+    /* padding-top: 280px; */
+    height: 577px;
+    /* width: 1200px; */
 }
 .form{
     display: flex;
     flex-flow: column;
     align-items: center;
-    background-color: rgb(204, 195, 204);
-}
-form p{
-text-align: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: rgba(231, 221, 231, 0.719);
+    width: 290px;
+    min-height: 400px;
+    /* margin: auto; */
+    /* padding: 83px 0 66px 0; */
+    border-radius: 0% 1% 1% 0%;
+    box-shadow:1px 2px 10px rgb(105, 101, 101) ;
+        font-family: 'Outfit', sans-serif;
 }
 .svg-icon{
     width: 25px;
 }
-img{
+.div1{
+     box-shadow:0px 2px 10px rgb(105, 101, 101);
+         width: 50vw;
 
+         min-height: 400px;
+             border-radius: 1% 0% 0% 1%;
+             background:  url(../img/dasbaffff.png) center no-repeat;
+             background-size: cover;
+}
+/* .div1 img{
+    width: 1vh;
+    border-radius: 1% 0% 0% 1%;
+    margin-bottom: -5px;
+} */
+button{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    height: 25px;
+    background-color:rgb(201,163,107);
+}
+@media (min-width:900px) and (max-width:1000px){
+    .main{
+        gap: 0px;
+    }
 }
